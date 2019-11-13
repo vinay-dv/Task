@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AutoCompleteTextView
+        android:id="@+id/editTextDistrict_Dailog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Select State Name"
+        android:layout_marginTop="30dp"
+        android:textColor="#B9B5B5"
+        android:layout_marginHorizontal="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        ></AutoCompleteTextView>
+    <EditText
+        android:id="@+id/editTextDistrict2_Dailog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Select District Name"
+        android:layout_marginTop="30dp"
+        android:textColor="#B9B5B5"
+        android:layout_marginHorizontal="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        ></EditText>
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Submit"
+        android:textColor="#ffff"
+        android:layout_marginBottom="20dp"
+        android:shadowColor="#ffff"></Button>
+</LinearLayout>
